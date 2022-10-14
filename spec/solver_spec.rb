@@ -24,6 +24,13 @@ describe Solver do
   end
 
   context 'to test the reverse method' do
+    it 'should return olleh if string is hello' do
+      expect(@solver.reverse('hello')).to eq('olleh')
+    end
+
+    it 'should return elgnuJ if string is Jungle' do
+      expect(@solver.reverse('Jungle')).to eq('elgnuJ')
+    end
   end
 
   context 'to test the fizzbuzz' do
