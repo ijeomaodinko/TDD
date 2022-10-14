@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # TDD 
-This project you will implement a class with some methods, but you will do it by doing test-driven development (TDD). 
+This project will implement a class with some methods, but will do it by doing test-driven development (TDD). 
 
 ## Built With
 
@@ -39,13 +39,21 @@ Typing    npm run start on the terminal and  open the dist folder and click on t
 - Rspec
 
 
-## Author
+## Author 1
 
 👤 **Ijeoma Odinko**
 
 - GitHub: [@ijeomaodinko](https://github.com/ijeomaodinko)
 - Twitter: [@pureblog09](https://twitter.com/pureblog09)
 - LinkedIn: [ijeomaodinko](https://linkedin.com/in/ijeomaodinko)
+
+## Author 2
+
+👤 **Karla Delgado**
+
+GitHub: @karlavdelgadof
+Twitter: @karlavdelgadof
+LinkedIn: Karla Delgado
 
 
 ## 🤝 Contributing
