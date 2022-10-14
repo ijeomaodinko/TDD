@@ -12,8 +12,12 @@ class Solver
         facto
       end
     end
-  
     
+    def reverse
+
+
+
+    end
     
     def fizzbuzz(num)
         if (num % 3).zero? && (num % 5).zero?

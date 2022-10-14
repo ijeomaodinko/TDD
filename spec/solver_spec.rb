@@ -44,6 +44,10 @@ describe Solver do
   end
 end
 
+context 'to test the reverse method' do
+
+
+end
 
 context 'to test the fizzbuzz' do
     it 'Should return "fizz" if integer 9' do
