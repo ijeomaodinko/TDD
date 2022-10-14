@@ -22,3 +22,44 @@ describe Solver do
       expect(@solver.factorial(-1.9)).to eq('exception')
     end
   end
+
+
+
+  context 'to test the fizzbuzz' do
+    it 'Should return "fizz" if integer 9' do
+      expect(@solver.fizzbuzz(9)).to eq('fizz')
+    end
+
+    it 'should return "buzz" if integer 95' do
+      expect(@solver.fizzbuzz(95)).to eq('buzz')
+    end
+
+    it 'Should return "fizzbuzz" if integer 90' do
+      expect(@solver.fizzbuzz(90)).to eq('fizzbuzz')
+    end
+
+    it 'should return "94" if integer 94' do
+      expect(@solver.fizzbuzz(94)).to eq('94')
+    end
+  end
+end
+
+
+context 'to test the fizzbuzz' do
+    it 'Should return "fizz" if integer 9' do
+      expect(@solver.fizzbuzz(9)).to eq('fizz')
+    end
+
+    it 'should return "buzz" if integer 95' do
+      expect(@solver.fizzbuzz(95)).to eq('buzz')
+    end
+
+    it 'Should return "fizzbuzz" if integer 90' do
+      expect(@solver.fizzbuzz(90)).to eq('fizzbuzz')
+    end
+
+    it 'should return "94" if integer 94' do
+      expect(@solver.fizzbuzz(94)).to eq('94')
+    end
+  end
+end
